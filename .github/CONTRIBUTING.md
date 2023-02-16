@@ -30,6 +30,8 @@ cd packages/core
 npm run watch
 ```
 
+When proposing changes to one of the adapters (`react`, `vue2`, `vue3`, `svelte`), please try to apply the same changes to the other adapters where possible.
+
 ## Playgrounds
 
 It's often helpful to develop Inertia.js using a real application. The playground folder contains an example Laravel project for each of the adapters. Here's how to get a playground running:
@@ -61,6 +63,7 @@ npm run ssr:serve
 
 This section is really for the benefit of the core maintainers.
 
-1. Increment the version number in the package `package.json` file.
-2. Run `npm publish`. This will automatically run the necessary build step.
+1. Increment the version numbers in the `package.json` file for each package, making sure to also update the adapter dependencies on `@inertiajs/core`.
+2. Update `CHANGELOG.md`.
+2. Run `npm publish` for each package. This will automatically run the necessary build step.
 3. Add release notes to [GitHub](https://github.com/inertiajs/inertia/releases).
