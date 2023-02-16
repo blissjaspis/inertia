@@ -1,6 +1,7 @@
 {
   "name": "bliss-jaspis-inertia-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
+
   "license": "MIT",
   "description": "A framework for creating server-driven single page apps.",
   "contributors": [
