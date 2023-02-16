@@ -1,6 +1,6 @@
 {
   "name": "bliss-jaspis-inertia-vue-3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "The Vue 3 adapter for Inertia.js",
   "contributors": [
